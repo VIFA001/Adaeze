@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>My portfolio</title>
+  </head>
+  <body class="text-white">
+    <!--header starts-->
+    <header class="header--bg relative h-screen bg-cover bg-center text-white">
+      <!--Nav Section-->
+      <nav class="flex justify-between items-center p-6 w-full">
+        <div class="text-sm font-bold px-10">VICTORY UKPAI</div>
+        <ul class="flex space-x-6 px-10">
+          <li><a href="#" class="hover:text-blue-500">Home</a></li>
+          <li><a href="#" class="hover:text-blue-500">Project</a></li>
+          <li><a href="#" class="hover:text-blue-500">Contact</a></li>
+        </ul>
+      </nav>
+      <!--*****-->
+      <!--Hero Section-->
+      <div class="flex flex-col justify-center items-center h-[80vh]">
+        <h1 class="text-[3rem] md:text-[5rem]">Hello</h1>
+        <h2 class="text-[2rem] md:text-[7rem]">
+          <span class="font-thin text-gray-400">I Am a </span> Developer
+        </h2>
+        <div class="flex gap-5 mt-6 text-sm">
+          <a href="#" class="hover:text-blue-500"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <a href="#" class="hover:text-blue-500"
+            ><i class="bi bi-whatsapp"></i
+          ></a>
+          <a href="#" class="hover:text-blue-500"
+            ><i class="bi bi-twitter-x"></i
+          ></a>
+          <a href="#" class="hover:text-blue-500"
+            ><i class="bi bi-instagram"></i
+          ></a>
+        </div>
+      </div>
+      <!--****-->
+    </header>
+    <!--header ends-->
+    <!--about section starts-->
+    <section class="py-16 bg-gray-100">
+      <div class="container mx-auto flex flex-col md:flex-row items-center">
+        <div class="w-full md:w-1/2 px-4">
+          <img src="dp.jpg" alt="profile" class="rounded-none w-64 mx-auto" />
+        </div>
+        <div>
+          <h2 class="text-4xl text-black font-bold mb-4">About Me</h2>
+          <p class="text-black font-semibold">
+            My name is Victory and I am a web developer. My goal is to crate an
+            easy website that is easy to navigate , responsive and accessible to
+            all users.
+          </p>
+          <div class="flex gap-5 mt-6 text-5xl">
+            <a href="#" class="hover:text-blue-500 text-black"
+              ><i class="bi bi-filetype-html"></i
+            ></a>
+            <a href="#" class="hover:text-blue-500 text-black"
+              ><i class="bi bi-bootstrap-fill"></i
+            ></a>
+            <a href="#" class="hover:text-blue-500 text-black"
+              ><i class="bi bi-filetype-css"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--footer section-->
+    <footer class="bg-gray-800 text-white px-10">
+      <div>
+        <h3 class="text-lg font-semibold">24/7 Customer Support</h3>
+        <p>For more enquiries and assistance on web development</p>
+        <form class="bg-gray-800 text-black">
+          <label for="email"></label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            class="w-30 border rounded-md"
+            required
+          />
+          <button
+            type="submit"
+            class="bg-blue-600 w-20 text-white py-2 rounded-md hover:bg-blue-700 transition-colors"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
